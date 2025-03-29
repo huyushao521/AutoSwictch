@@ -7,7 +7,7 @@ from langchain_core.runnables import RunnableLambda
 from netmiko import ConnectHandler
 
 
-deepseek_api_key = "sk-289f82b003b34950afa6ac4526454107"
+deepseek_api_key = "sk-289f82b003b34950afa6ac26454107"
 
 llm = ChatDeepSeek(model="deepseek-chat", temperature=0, api_key=deepseek_api_key)
 
